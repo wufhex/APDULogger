@@ -7,7 +7,7 @@ This project uses [ant-javacard](https://github.com/martinpaljak/ant-javacard) t
 To build it, follow these steps:
 1. Clone the repository:
    ```
-   git clone https://github.com/wufhex/ApduLogger/ --recursive
+   git clone https://github.com/wufhex/APDULogger/ --recursive
    ```
 2. Install Apache Ant and JDK 17.
 3. Run `ant` to compile the CAP file.
