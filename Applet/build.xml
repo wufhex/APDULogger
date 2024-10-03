@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="ApduLogger" default="dist" basedir=".">
+    <get src="https://github.com/martinpaljak/ant-javacard/releases/latest/download/ant-javacard.jar" dest="." skipexisting="true"/>
+    <taskdef name="javacard" classname="pro.javacard.ant.JavaCard" classpath="ant-javacard.jar"/>
+
+    <description>Builds the project. </description>
+    <target name="dist" description="generate the distribution">
+        <tstamp/>
+        <javacard jckit="ext/sdks/jc304_kit">
+            <cap targetsdk="ext/sdks/jc222_kit" aid="ac:76:a2:cc:bc:fb:22:9d:aa:f3:cc" output="ApduLogger.cap" sources="src" version="1.0">
+                <applet class="me.hex.apdulogger.ApduLogger" aid="ac:76:a2:cc:bc:fb:22:9d:aa:f3:cc:01"/>
+            </cap>
+        </javacard>
+    </target>
+    <target name="clean" description="clean up">
+        <delete dir="ApduLogger.cap"/>
+    </target>
+</project>
