@@ -7,7 +7,7 @@ This project uses [ant-javacard](https://github.com/martinpaljak/ant-javacard) t
 To build it, follow these steps:
 1. Clone the repository:
    ```
-   git clone https://github.com/WolfHex/ApduLogger/ --recursive
+   git clone https://github.com/wufhex/ApduLogger/ --recursive
    ```
 2. Install Apache Ant and JDK 17.
 3. Run `ant` to compile the CAP file.
@@ -72,3 +72,8 @@ gp --lock-applet AC76A2CCBCFB229DAAF3CC
 ```
 
 An update adding a feature to stop the logger will be available soon.
+
+## Donating
+I work on all my project for fun, but i'd be grateful if you could buy me a coffee!\
+\
+<a href='https://ko-fi.com/D1D3NTABI' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://storage.ko-fi.com/cdn/kofi2.png?v=3' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
