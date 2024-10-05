@@ -9,7 +9,7 @@ To build it, follow these steps:
    ```
    git clone https://github.com/wufhex/APDULogger/ --recursive
    ```
-2. Install Apache Ant and JDK 17.
+2. Install Apache Ant and JDK 11.
 3. Run `ant` to compile the CAP file.
 
 ## Installation
