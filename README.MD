@@ -31,7 +31,7 @@ For example:
 ```
 EEA0000002080004
 ```
-In this example, the logger initializes a 256-byte (0800 in hex) array in the card’s persistent memory (EEPROM). After that, it will start logging all incoming APDU commands (except for some reserved ones), responding with `90 00` (Success).
+In this example, the logger initializes a 2kbyte (0800 in hex) array in the card’s persistent memory (EEPROM). After that, it will start logging all incoming APDU commands (except for some reserved ones), responding with `90 00` (Success).
 
 ### Reading the Logs
 You can read the logged commands from the buffer using:
